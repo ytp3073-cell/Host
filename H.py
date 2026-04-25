@@ -45,11 +45,11 @@ def health():
     return json.dumps({'status': 'ok', 'uptime': get_uptime()})
 
 # Environment variables with YOUR TOKEN
-TOKEN = os.environ.get('TELEGRAM_BOT_TOKEN', '8383721588:AAEhU_8-n7tiempBEc8XdYFCNDlB6bcsSM0')
+TOKEN = os.environ.get('TELEGRAM_BOT_TOKEN', '8437783271:AAGdG9Lp5stIHcbRzXqL-kQcLnvLmAc5YhU')
 OWNER_ID = int(os.environ.get('OWNER_ID', 7964730489))
 ADMIN_ID = int(os.environ.get('ADMIN_ID', 8477195695))
-YOUR_USERNAME = os.environ.get('YOUR_USERNAME', '@Xyzr4')
-UPDATE_CHANNEL = os.environ.get('UPDATE_CHANNEL', 'https://t.me/Xyzr4')
+YOUR_USERNAME = os.environ.get('YOUR_USERNAME', '@BGMI_main')
+UPDATE_CHANNEL = os.environ.get('UPDATE_CHANNEL', 'https://t.me/UROGGY')
 
 A4F_API_URL = "https://samuraiapi.in/v1/chat/completions"
 A4F_API_KEY = "sk-NK6SS9tpWghyFJwkZLoCis1sMaF6RwQ5WF09mUoKKR0VKCm7"
